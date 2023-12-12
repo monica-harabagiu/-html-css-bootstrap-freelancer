@@ -1,0 +1,36 @@
+/*************************************** 
+  GENERAL
+****************************************/
+
+
+ul {
+    margin-block: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h3 {
+    margin-block: 0;
+}
+
+
+/* SECTION HEADER START ************************************************/
+
+header {
+    background-color: #2B3E50;
+    color: white;
+}
+
+header h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+header ul li {
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+/* !SECTION HEADER END */
