@@ -151,3 +151,35 @@ header ul li {
     width: 70px;
     border-radius: 5px;
 }
+
+/* !SECTION CONTACT ME END */
+
+
+/* SECTION FOOTER START ************************************************/
+
+footer {
+    background-color: #3A546D;
+    color: white;
+}
+
+footer span {
+    font-size: .7rem;
+}
+
+footer i {
+    border: 1px solid white;
+    padding: 5px;
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    font-size: .8rem;
+    padding-top: 7px;
+}
+
+footer p {
+    font-size: .7rem;
+}
+
+footer p span {
+    color: #19BC9C;
+}
