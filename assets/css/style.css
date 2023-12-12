@@ -183,3 +183,11 @@ footer p {
 footer p span {
     color: #19BC9C;
 }
+
+#copyright {
+    background-color: #2B3E50;
+    color: white;
+    font-size: .6rem;
+}
+
+/* !SECTION FOOTER END */
