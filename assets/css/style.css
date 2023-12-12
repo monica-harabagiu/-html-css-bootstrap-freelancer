@@ -34,3 +34,33 @@ header ul li {
 }
 
 /* !SECTION HEADER END */
+
+
+/* SECTION JUMBO START ************************************************/
+
+#jumbo {
+    background-color: #19BC9C;
+    color: white;
+}
+
+#jumbo figure {
+    width: 130px;
+}
+
+#jumbo h1 {
+    font-size: 1.8rem;
+}
+
+#jumbo hr {
+    border: 1px solid white;
+    width: 80px;
+    opacity: 1;
+}
+
+#jumbo ul {
+    padding: 0;
+}
+
+#jumbo li {
+    font-size: .7rem;
+}
