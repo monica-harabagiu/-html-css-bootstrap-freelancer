@@ -2,6 +2,14 @@
   GENERAL
 ****************************************/
 
+img {
+    display: block;
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+}
 
 ul {
     margin-block: 0;
@@ -63,4 +71,27 @@ header ul li {
 
 #jumbo li {
     font-size: .7rem;
+}
+
+/* !SECTION JUMBO END */
+
+
+/* SECTION PORTFOLIO START ************************************************/
+
+#portfolio h2 {
+    font-size: 1.5rem;
+}
+
+#portfolio hr {
+    border: 1px solid black;
+    width: 80px;
+    opacity: 1;
+}
+
+#portfolio figure {
+    margin-bottom: 1.5rem;
+}
+
+#portfolio img {
+    border-radius: 10px;
 }
