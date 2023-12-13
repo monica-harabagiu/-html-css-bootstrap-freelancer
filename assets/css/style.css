@@ -36,13 +36,38 @@ h3 {
 
 header {
     background-color: #2B3E50;
+}
+
+header .navbar {
+    --bs-navbar-toggler-focus-width: 0;
+}
+
+header .navbar-brand {
     color: white;
 }
 
-header h3 {
+header .navbar-nav {
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: white;
+}
+
+header .navbar-nav .nav-link.active {
+    color: white;
+}
+
+header .navbar-toggler {
+    background-color: transparent;
+    border-color: white;
+}
+
+header .navbar-toggler .navbar-toggler-icon {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+/* header h3 {
     font-size: 1rem;
     font-weight: 700;
-}
+} */
 
 header ul li {
     font-size: .7rem;
@@ -144,12 +169,18 @@ header ul li {
     color: black;
 }
 
-#contact form input[type=submit] {
+#contact form button[type=submit] {
     background-color: #19BC9C;
     color: white;
     padding-block: 5px;
     width: 70px;
     border-radius: 5px;
+    border: 0;
+}
+
+#contact .form-control {
+    padding: 10px 0;
+    border-radius: 0;
 }
 
 /* !SECTION CONTACT ME END */
